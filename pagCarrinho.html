@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon-Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Thunder</title>
+</head>
+<body>
+    <header class="Principal">
+        <span>Carrinho de compras</span>
+    </header>
+    <main>
+        <div class="page-title">
+            seu carrinho<i class='bx bxs-cart'></i>
+        </div>
+        <div class="content">
+            <section>
+                <table>
+                   <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                        <td><div class="Produto">
+                            <img src="img/headset3.png" width="120px" alt="headset3">
+                            <div class="info">
+                                <div class="name">PRO X HEADSET Edição League of Legends</div>
+                                <div class="category">Headset</div>
+                            </div>
+                            </div>
+                        </td><!--Produto-->
+                        <td>R$ 1.550</td>  <!--valor-->                  
+                        <td><div class="quantidade">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div></td><!--quantidade-->
+                        <td>R$ 1.550</td><!--valor Total-->
+                        <td><!--retirar produto-->
+                            <button class="delet"><i class='bx bx-x'></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><div class="Produto">
+                            <img src="img/teclado2.png" width="120px" alt="teclado2">
+                            <div class="info">
+                                <div class="name">Teclado Gamer League of Legends</div>
+                                <div class="category">Teclado</div>
+                            </div>
+                            </div>
+                        </td><!--Produto-->
+                        <td>R$ 1.200</td>  <!--valor-->                  
+                        <td><div class="quantidade">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div></td><!--quantidade-->
+                        <td>R$ 1.200 </td><!--valor Total-->
+                        <td><!--retirar produto-->
+                            <button class="delet"><i class='bx bx-x'></i></button>
+                        </td>
+                    </tr>
+                   </tbody> 
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header class="b_header">Resumo de Compra</header>
+                    <div class="b_info">
+                        <div class="span_info"><span>Sub-Total</span><span>R$ 2.750</span></div>
+                        <div class="span_info"><span>Frete</span><span>R$ 50</span></div>
+                        
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ 2.800 </span>
+                    </footer>
+                </div>
+                <button class="b_button">FINALIZAR COMPRA</button>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
